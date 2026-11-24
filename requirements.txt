@@ -1,0 +1,19 @@
+torch
+torchvision
+numpy<2
+pyyaml
+six
+tqdm
+opencv-python
+matplotlib
+wandb
+moviepy<2
+imageio
+torchmetrics
+pytorch-lightning<2
+pycocotools
+pandas
+einops
+scikit-image
+lpips
+nerv @ git+https://github.com/Wuziyi616/nerv.git@v0.1.0
