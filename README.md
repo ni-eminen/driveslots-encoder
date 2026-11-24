@@ -2,6 +2,10 @@
 
 Stochastic SAVi pretraining on RGB bird's-eye-view sequences for DriveSlots, based on SlotFormer. It learns object slots using reconstruction, perceptual, and KL losses. Supervised encoder fine-tuning and language-guided driving are in [driveslots](https://github.com/ni-eminen/driveslots).
 
+## Model weights
+
+The [pretrained SAVi encoder weights](https://huggingface.co/ni-eminen/savi-pretrained-30slots) are available on Hugging Face. Links to the fine-tuned encoder and instruction-finetuned models are in the [DriveSlots README](https://github.com/ni-eminen/driveslots#model-weights).
+
 ## Setup
 
 Use a separate Python environment with a CUDA-compatible PyTorch/torchvision installation:
